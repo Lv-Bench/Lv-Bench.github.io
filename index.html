@@ -265,31 +265,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            While several long-form VideoQA datasets have been introduced, the length of both videos used to curate questions and sub-clips of clues leveraged to answer those questions have not yet reached the criteria for genuine long-form video understanding. Moreover, their QAs are unduly narrow and modality-biased, lacking a wider view of understanding long-term video content with rich dynamics and complex narratives. To remedy this, we introduce MoVQA, a long-form movie question-answering dataset, and benchmark to assess the diverse cognitive capabilities of multimodal systems rely on multi-level temporal lengths, with considering both video length and clue length. Additionally, to take a step towards human-level understanding in long-form video, versatile and multimodal question-answering is designed from the moviegoer-perspective to assess the model capabilities on various perceptual and cognitive axes. Analysis involving various baselines reveals a consistent trend: the performance of all methods significantly deteriorate with increasing video and clue length. Meanwhile, our established baseline method has shown some improvements, but there is still ample scope for enhancement on our challenging MoVQA dataset. We expect our MoVQA to provide a new perspective and encourage inspiring works on long-form video understanding research.
           </p>
         </div>
       </div>
