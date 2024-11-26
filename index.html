@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content=MoVQA: A Benchmark of Versatile Question-Answering for Long-Form Movie Understanding.>
+        content=LvBench: A Benchmark for Long-form Video Understanding with Versatile Multi-modal Question Answering.>
   <meta name="keywords" content="Movie, Question-Answering, Long-Form">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MoVQA: A Benchmark of Versatile Question-Answering for Long-Form Movie Understanding</title>
+  <title>LvBench: A Benchmark for Long-form Video Understanding with Versatile Multi-modal Question Answering</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -195,7 +195,7 @@
                  class="interpolation-image"
                  alt="Interpolation end reference image."/>
         <h2 class="subtitle has-text-centered">
-        <span class="dnerf">An overview of our MoVQA.  We designed a multi-level question-answering to systematically evaluate the long-form video understanding capabilities of models. 
+        <span class="dnerf">An overview of our LvBench.  We designed a multi-level question-answering to systematically evaluate the long-form video understanding capabilities of models. 
           These QA pairs are sourced from single-scene, multi-scene and full-scene, and cover various aspects of video understanding, including information synopsis, temporal perception, spatial perception, causal reasoning, hypothetical reasoning and external knowledge.
         </h2>
     </div>
@@ -269,8 +269,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            While several long-form VideoQA datasets have been introduced, the length of both videos used to curate questions and sub-clips of clues leveraged to answer those questions have not yet reached the criteria for genuine long-form video understanding. Moreover, their QAs are unduly narrow and modality-biased, lacking a wider view of understanding long-term video content with rich dynamics and complex narratives. To remedy this, we introduce MoVQA, a long-form movie question-answering dataset, and benchmark to assess the diverse cognitive capabilities of multimodal systems rely on multi-level temporal lengths, with considering both video length and clue length. Additionally, to take a step towards human-level understanding in long-form video, versatile and multimodal question-answering is designed from the moviegoer-perspective to assess the model capabilities on various perceptual and cognitive axes. Analysis involving various baselines reveals a consistent trend: the performance of all methods significantly deteriorate with increasing video and clue length. Meanwhile, our established baseline method has shown some improvements, but there is still ample scope for enhancement on our challenging MoVQA dataset. We expect our MoVQA to provide a new perspective and encourage inspiring works on long-form video understanding research.
-          </p>
+            Despite remarkable recent progress, existing long-form VideoQA datasets fall short of meeting the criteria for genuine long-form video understanding. This is primarily due to the use of short videos for question curation, and the reliance on limited-length sub-clips as clues to answer those questions. Meanwhile, previous datasets have limited focus on question type and modality. To remedy this, we introduce LvBench, a Long-form Video understanding Benchmark for versatile multi-modal question-answering. Our LvBench stands out from existing long-form VideoQA datasets through three key characteristics: 1) Extended temporal durations: We consider videos ranging from 70 seconds to 4 hours, covering single-scene, multi-scene, and full-scene contexts. This design accounts for both video and clue lengths, capturing diverse contextual dynamics. 2) Diverse question types and modalities: LvBench introduces six distinct question types that evaluate various perceptual and cognitive capabilities, utilizing both video frames and subtitles. 3) High-quality annotations: We employ rigorous manual labeling by human annotators. Our dataset comprises 20,061 question-answer pairs sourced from 100 carefully selected movies across diverse genres, annotated collaboratively by multiple individuals. Analysis involving various baselines reveals a consistent trend: the performance of all existing methods significantly deteriorates when video and clue length increases. We expect LvBench to serve as a valuable resource for future works on long-form video understanding
         </div>
       </div>
     </div>
